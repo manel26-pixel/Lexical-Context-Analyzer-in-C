@@ -4,16 +4,16 @@ This repository contains the core C functions for lexical context extraction and
 
 ---
 
-## 📁 Files Included
+##  Files Included
 
 | File         | Description                                                                 |
 |--------------|-----------------------------------------------------------------------------|
-| `fonction.h` | Header file with structure definitions and function declarations.           |
-| `FONCTION.c` | Source file implementing all text-processing and data-manipulation logic.   |
+| `Details.h` | Header file with structure definitions and function declarations.           |
+| `Functions.c` | Source file implementing all text-processing and data-manipulation logic.   |
 
 ---
 
-## ⚙ Features
+##  Features
 
 - Read and parse text from a file
 - Tokenize text into words and build a linked list
@@ -26,14 +26,14 @@ This repository contains the core C functions for lexical context extraction and
 
 ---
 
-## 🛠️ How to Use
+##  How to Use
 
 1. Include the header in your own C file:
 
 2. Compile your program with:
 
    ```bash
-   gcc main.c FONCTION.c -o context-analyzer
+   gcc main.c Functions.c -o context-analyzer
    ```
 
 3. Make sure your `main.c` provides:
@@ -43,7 +43,7 @@ This repository contains the core C functions for lexical context extraction and
 
 ---
 
-## 🧪 Sample Usage
+##  Sample Usage
 
 ```c
 FILE *f = fopen("text.txt", "r");
@@ -55,14 +55,14 @@ affichagedictionnaire(D);              // Display full dictionary
 
 ---
 
-## 👥 Authors
+##  Authors
 
 * **Ferchichi Manel**
 * **Madi Sara**
 
 ---
 
-## 📄 License
+##  License
 
 This project is released for educational and personal use. You may reuse and adapt the code with proper credit.
 
